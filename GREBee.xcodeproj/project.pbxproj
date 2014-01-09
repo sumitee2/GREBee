@@ -21,6 +21,18 @@
 		17564C7F18753F8A003EDCE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17564C6118753F8A003EDCE1 /* UIKit.framework */; };
 		17564C8718753F8A003EDCE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17564C8518753F8A003EDCE1 /* InfoPlist.strings */; };
 		17564C8918753F8A003EDCE1 /* GREBeeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17564C8818753F8A003EDCE1 /* GREBeeTests.m */; };
+		17564C9518754058003EDCE1 /* Twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 17564C9318754058003EDCE1 /* Twitter.png */; };
+		17564C9618754058003EDCE1 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17564C9418754058003EDCE1 /* images.jpg */; };
+		17564C9918754219003EDCE1 /* wordListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17564C9818754219003EDCE1 /* wordListCell.xib */; };
+		17574BA6187D282F00F1B85C /* WordList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17574BA4187D282F00F1B85C /* WordList.xcdatamodeld */; };
+		17574BA9187D29CD00F1B85C /* WordDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 17574BA8187D29CD00F1B85C /* WordDetails.m */; };
+		17A733F81877F41B002E944D /* GBWordMeaningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A733F71877F41B002E944D /* GBWordMeaningViewController.m */; };
+		17A733FC1877F667002E944D /* WordMeaningCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A733FB1877F667002E944D /* WordMeaningCell.xib */; };
+		17A733FF1877F6DA002E944D /* GBWordMeaningCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A733FE1877F6DA002E944D /* GBWordMeaningCell.m */; };
+		17B5A36A1876BA8C00BD364C /* GBWordListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5A3691876BA8C00BD364C /* GBWordListCell.m */; };
+		17B5A36D1876BB4A00BD364C /* GBWordListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5A36C1876BB4A00BD364C /* GBWordListVC.m */; };
+		17B5A3701876CE7E00BD364C /* wordCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17B5A36F1876CE7E00BD364C /* wordCardCell.xib */; };
+		17B5A3731876CF1E00BD364C /* GBwordCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5A3721876CF1E00BD364C /* GBwordCardCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +65,24 @@
 		17564C8418753F8A003EDCE1 /* GREBeeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GREBeeTests-Info.plist"; sourceTree = "<group>"; };
 		17564C8618753F8A003EDCE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		17564C8818753F8A003EDCE1 /* GREBeeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GREBeeTests.m; sourceTree = "<group>"; };
+		17564C9318754058003EDCE1 /* Twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitter.png; sourceTree = "<group>"; };
+		17564C9418754058003EDCE1 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
+		17564C9818754219003EDCE1 /* wordListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = wordListCell.xib; sourceTree = "<group>"; };
+		17574BA5187D282F00F1B85C /* WordList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WordList.xcdatamodel; sourceTree = "<group>"; };
+		17574BA7187D29CD00F1B85C /* WordDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordDetails.h; sourceTree = "<group>"; };
+		17574BA8187D29CD00F1B85C /* WordDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordDetails.m; sourceTree = "<group>"; };
+		17A733F61877F41B002E944D /* GBWordMeaningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBWordMeaningViewController.h; sourceTree = "<group>"; };
+		17A733F71877F41B002E944D /* GBWordMeaningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBWordMeaningViewController.m; sourceTree = "<group>"; };
+		17A733FB1877F667002E944D /* WordMeaningCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WordMeaningCell.xib; sourceTree = "<group>"; };
+		17A733FD1877F6DA002E944D /* GBWordMeaningCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBWordMeaningCell.h; sourceTree = "<group>"; };
+		17A733FE1877F6DA002E944D /* GBWordMeaningCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBWordMeaningCell.m; sourceTree = "<group>"; };
+		17B5A3681876BA8C00BD364C /* GBWordListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBWordListCell.h; sourceTree = "<group>"; };
+		17B5A3691876BA8C00BD364C /* GBWordListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBWordListCell.m; sourceTree = "<group>"; };
+		17B5A36B1876BB4A00BD364C /* GBWordListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBWordListVC.h; sourceTree = "<group>"; };
+		17B5A36C1876BB4A00BD364C /* GBWordListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBWordListVC.m; sourceTree = "<group>"; };
+		17B5A36F1876CE7E00BD364C /* wordCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = wordCardCell.xib; sourceTree = "<group>"; };
+		17B5A3711876CF1E00BD364C /* GBwordCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBwordCardCell.h; sourceTree = "<group>"; };
+		17B5A3721876CF1E00BD364C /* GBwordCardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBwordCardCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +142,14 @@
 		17564C6318753F8A003EDCE1 /* GREBee */ = {
 			isa = PBXGroup;
 			children = (
-				17564C6C18753F8A003EDCE1 /* GBAppDelegate.h */,
-				17564C6D18753F8A003EDCE1 /* GBAppDelegate.m */,
+				17574BAA187D29FD00F1B85C /* Dabase */,
+				17B5A3741876D0CD00BD364C /* WordList */,
+				17A733F91877F44E002E944D /* WordMeaningVC */,
+				17B5A36E1876CDDE00BD364C /* WordCardCell */,
+				17A6D969187EAB8A00594CCB /* Main App */,
+				17A6D968187EAB7A00594CCB /* Begin Here */,
 				17564C6F18753F8A003EDCE1 /* Main.storyboard */,
-				17564C7218753F8A003EDCE1 /* GBViewController.h */,
-				17564C7318753F8A003EDCE1 /* GBViewController.m */,
+				17564C9218754046003EDCE1 /* images */,
 				17564C7518753F8A003EDCE1 /* Images.xcassets */,
 				17564C6418753F8A003EDCE1 /* Supporting Files */,
 			);
@@ -150,6 +183,94 @@
 				17564C8518753F8A003EDCE1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17564C9218754046003EDCE1 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				17564C9318754058003EDCE1 /* Twitter.png */,
+				17564C9418754058003EDCE1 /* images.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		17564C97187541F9003EDCE1 /* wordListCell */ = {
+			isa = PBXGroup;
+			children = (
+				17564C9818754219003EDCE1 /* wordListCell.xib */,
+				17B5A3681876BA8C00BD364C /* GBWordListCell.h */,
+				17B5A3691876BA8C00BD364C /* GBWordListCell.m */,
+			);
+			name = wordListCell;
+			sourceTree = "<group>";
+		};
+		17574BAA187D29FD00F1B85C /* Dabase */ = {
+			isa = PBXGroup;
+			children = (
+				17574BA4187D282F00F1B85C /* WordList.xcdatamodeld */,
+				17574BA7187D29CD00F1B85C /* WordDetails.h */,
+				17574BA8187D29CD00F1B85C /* WordDetails.m */,
+			);
+			name = Dabase;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		17A6D968187EAB7A00594CCB /* Begin Here */ = {
+			isa = PBXGroup;
+			children = (
+				17564C7218753F8A003EDCE1 /* GBViewController.h */,
+				17564C7318753F8A003EDCE1 /* GBViewController.m */,
+			);
+			name = "Begin Here";
+			sourceTree = "<group>";
+		};
+		17A6D969187EAB8A00594CCB /* Main App */ = {
+			isa = PBXGroup;
+			children = (
+				17564C6C18753F8A003EDCE1 /* GBAppDelegate.h */,
+				17564C6D18753F8A003EDCE1 /* GBAppDelegate.m */,
+			);
+			name = "Main App";
+			sourceTree = "<group>";
+		};
+		17A733F91877F44E002E944D /* WordMeaningVC */ = {
+			isa = PBXGroup;
+			children = (
+				17A733FA1877F631002E944D /* WordMeaningCell */,
+				17A733F61877F41B002E944D /* GBWordMeaningViewController.h */,
+				17A733F71877F41B002E944D /* GBWordMeaningViewController.m */,
+			);
+			name = WordMeaningVC;
+			sourceTree = "<group>";
+		};
+		17A733FA1877F631002E944D /* WordMeaningCell */ = {
+			isa = PBXGroup;
+			children = (
+				17A733FB1877F667002E944D /* WordMeaningCell.xib */,
+				17A733FD1877F6DA002E944D /* GBWordMeaningCell.h */,
+				17A733FE1877F6DA002E944D /* GBWordMeaningCell.m */,
+			);
+			name = WordMeaningCell;
+			sourceTree = "<group>";
+		};
+		17B5A36E1876CDDE00BD364C /* WordCardCell */ = {
+			isa = PBXGroup;
+			children = (
+				17B5A36F1876CE7E00BD364C /* wordCardCell.xib */,
+				17B5A3711876CF1E00BD364C /* GBwordCardCell.h */,
+				17B5A3721876CF1E00BD364C /* GBwordCardCell.m */,
+			);
+			name = WordCardCell;
+			sourceTree = "<group>";
+		};
+		17B5A3741876D0CD00BD364C /* WordList */ = {
+			isa = PBXGroup;
+			children = (
+				17564C97187541F9003EDCE1 /* wordListCell */,
+				17B5A36B1876BB4A00BD364C /* GBWordListVC.h */,
+				17B5A36C1876BB4A00BD364C /* GBWordListVC.m */,
+			);
+			name = WordList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +351,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				17564C7618753F8A003EDCE1 /* Images.xcassets in Resources */,
+				17564C9618754058003EDCE1 /* images.jpg in Resources */,
+				17564C9518754058003EDCE1 /* Twitter.png in Resources */,
+				17564C9918754219003EDCE1 /* wordListCell.xib in Resources */,
 				17564C6818753F8A003EDCE1 /* InfoPlist.strings in Resources */,
 				17564C7118753F8A003EDCE1 /* Main.storyboard in Resources */,
+				17B5A3701876CE7E00BD364C /* wordCardCell.xib in Resources */,
+				17A733FC1877F667002E944D /* WordMeaningCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +376,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17574BA9187D29CD00F1B85C /* WordDetails.m in Sources */,
+				17574BA6187D282F00F1B85C /* WordList.xcdatamodeld in Sources */,
+				17A733F81877F41B002E944D /* GBWordMeaningViewController.m in Sources */,
+				17B5A36A1876BA8C00BD364C /* GBWordListCell.m in Sources */,
+				17A733FF1877F6DA002E944D /* GBWordMeaningCell.m in Sources */,
+				17B5A36D1876BB4A00BD364C /* GBWordListVC.m in Sources */,
 				17564C6A18753F8A003EDCE1 /* main.m in Sources */,
 				17564C7418753F8A003EDCE1 /* GBViewController.m in Sources */,
+				17B5A3731876CF1E00BD364C /* GBwordCardCell.m in Sources */,
 				17564C6E18753F8A003EDCE1 /* GBAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +594,7 @@
 				17564C8E18753F8A003EDCE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17564C8F18753F8A003EDCE1 /* Build configuration list for PBXNativeTarget "GREBeeTests" */ = {
 			isa = XCConfigurationList;
@@ -469,8 +603,22 @@
 				17564C9118753F8A003EDCE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		17574BA4187D282F00F1B85C /* WordList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				17574BA5187D282F00F1B85C /* WordList.xcdatamodel */,
+			);
+			currentVersion = 17574BA5187D282F00F1B85C /* WordList.xcdatamodel */;
+			path = WordList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 17564C5218753F8A003EDCE1 /* Project object */;
 }
