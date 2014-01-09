@@ -103,8 +103,8 @@ NSArray *allWords;
 }
 
 -(void) scrollToWord:(int)word{
-    
-    NSIndexPath * indexPath = [NSIndexPath indexPathForItem:word inSection:0];
+//    
+  NSIndexPath * indexPath = [NSIndexPath indexPathForItem:word inSection:0];
   [self.wmCollectionView scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionNone animated:NO];
 }
 

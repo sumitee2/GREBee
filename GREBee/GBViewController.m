@@ -22,7 +22,7 @@
 - (void)viewDidLoad{
     [super viewDidLoad];
     self.managedObjectContext = ((GBAppDelegate*)[UIApplication sharedApplication].delegate).managedObjectContext;
-    //[self someDummyData];
+    [self someDummyData];
 }
 
 -(void)someDummyData{
