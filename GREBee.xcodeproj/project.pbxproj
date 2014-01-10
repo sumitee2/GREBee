@@ -34,6 +34,8 @@
 		17B5A3701876CE7E00BD364C /* wordCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17B5A36F1876CE7E00BD364C /* wordCardCell.xib */; };
 		17B5A3731876CF1E00BD364C /* GBwordCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5A3721876CF1E00BD364C /* GBwordCardCell.m */; };
 		CFEAF1DB187EBD99008BE272 /* WordCardDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFEAF1DA187EBD99008BE272 /* WordCardDetails.xib */; };
+		CFF6E171187FE3AA0029AA17 /* GBWordCardDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF6E170187FE3AA0029AA17 /* GBWordCardDetails.m */; };
+		CFF6E175187FE4760029AA17 /* GBWordCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF6E174187FE4760029AA17 /* GBWordCardViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,10 @@
 		17B5A3711876CF1E00BD364C /* GBwordCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBwordCardCell.h; sourceTree = "<group>"; };
 		17B5A3721876CF1E00BD364C /* GBwordCardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBwordCardCell.m; sourceTree = "<group>"; };
 		CFEAF1DA187EBD99008BE272 /* WordCardDetails.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WordCardDetails.xib; sourceTree = "<group>"; };
+		CFF6E16F187FE3AA0029AA17 /* GBWordCardDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBWordCardDetails.h; sourceTree = "<group>"; };
+		CFF6E170187FE3AA0029AA17 /* GBWordCardDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBWordCardDetails.m; sourceTree = "<group>"; };
+		CFF6E173187FE4760029AA17 /* GBWordCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBWordCardViewController.h; sourceTree = "<group>"; };
+		CFF6E174187FE4760029AA17 /* GBWordCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBWordCardViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +153,7 @@
 				17574BAA187D29FD00F1B85C /* Dabase */,
 				17B5A3741876D0CD00BD364C /* WordList */,
 				17A733F91877F44E002E944D /* WordMeaningVC */,
-				17B5A36E1876CDDE00BD364C /* WordCardCell */,
+				17B5A36E1876CDDE00BD364C /* WordCard */,
 				17A6D969187EAB8A00594CCB /* Main App */,
 				17A6D968187EAB7A00594CCB /* Begin Here */,
 				17564C6F18753F8A003EDCE1 /* Main.storyboard */,
@@ -255,13 +261,14 @@
 			name = WordMeaningCell;
 			sourceTree = "<group>";
 		};
-		17B5A36E1876CDDE00BD364C /* WordCardCell */ = {
+		17B5A36E1876CDDE00BD364C /* WordCard */ = {
 			isa = PBXGroup;
 			children = (
+				CFF6E172187FE4480029AA17 /* Word Card VC */,
 				CFEAF1D8187EBD32008BE272 /* word card */,
 				CFEAF1D9187EBD3A008BE272 /* word details */,
 			);
-			name = WordCardCell;
+			name = WordCard;
 			sourceTree = "<group>";
 		};
 		17B5A3741876D0CD00BD364C /* WordList */ = {
@@ -288,8 +295,19 @@
 			isa = PBXGroup;
 			children = (
 				CFEAF1DA187EBD99008BE272 /* WordCardDetails.xib */,
+				CFF6E16F187FE3AA0029AA17 /* GBWordCardDetails.h */,
+				CFF6E170187FE3AA0029AA17 /* GBWordCardDetails.m */,
 			);
 			name = "word details";
+			sourceTree = "<group>";
+		};
+		CFF6E172187FE4480029AA17 /* Word Card VC */ = {
+			isa = PBXGroup;
+			children = (
+				CFF6E173187FE4760029AA17 /* GBWordCardViewController.h */,
+				CFF6E174187FE4760029AA17 /* GBWordCardViewController.m */,
+			);
+			name = "Word Card VC";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -399,9 +417,11 @@
 				17574BA9187D29CD00F1B85C /* WordDetails.m in Sources */,
 				17574BA6187D282F00F1B85C /* WordList.xcdatamodeld in Sources */,
 				17A733F81877F41B002E944D /* GBWordMeaningViewController.m in Sources */,
+				CFF6E171187FE3AA0029AA17 /* GBWordCardDetails.m in Sources */,
 				17B5A36A1876BA8C00BD364C /* GBWordListCell.m in Sources */,
 				17A733FF1877F6DA002E944D /* GBWordMeaningCell.m in Sources */,
 				17B5A36D1876BB4A00BD364C /* GBWordListVC.m in Sources */,
+				CFF6E175187FE4760029AA17 /* GBWordCardViewController.m in Sources */,
 				17564C6A18753F8A003EDCE1 /* main.m in Sources */,
 				17564C7418753F8A003EDCE1 /* GBViewController.m in Sources */,
 				17B5A3731876CF1E00BD364C /* GBwordCardCell.m in Sources */,
