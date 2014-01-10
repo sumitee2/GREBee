@@ -33,6 +33,7 @@
 		17B5A36D1876BB4A00BD364C /* GBWordListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5A36C1876BB4A00BD364C /* GBWordListVC.m */; };
 		17B5A3701876CE7E00BD364C /* wordCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17B5A36F1876CE7E00BD364C /* wordCardCell.xib */; };
 		17B5A3731876CF1E00BD364C /* GBwordCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5A3721876CF1E00BD364C /* GBwordCardCell.m */; };
+		CFEAF1DB187EBD99008BE272 /* WordCardDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFEAF1DA187EBD99008BE272 /* WordCardDetails.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		17B5A36F1876CE7E00BD364C /* wordCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = wordCardCell.xib; sourceTree = "<group>"; };
 		17B5A3711876CF1E00BD364C /* GBwordCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBwordCardCell.h; sourceTree = "<group>"; };
 		17B5A3721876CF1E00BD364C /* GBwordCardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBwordCardCell.m; sourceTree = "<group>"; };
+		CFEAF1DA187EBD99008BE272 /* WordCardDetails.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WordCardDetails.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,9 +258,8 @@
 		17B5A36E1876CDDE00BD364C /* WordCardCell */ = {
 			isa = PBXGroup;
 			children = (
-				17B5A36F1876CE7E00BD364C /* wordCardCell.xib */,
-				17B5A3711876CF1E00BD364C /* GBwordCardCell.h */,
-				17B5A3721876CF1E00BD364C /* GBwordCardCell.m */,
+				CFEAF1D8187EBD32008BE272 /* word card */,
+				CFEAF1D9187EBD3A008BE272 /* word details */,
 			);
 			name = WordCardCell;
 			sourceTree = "<group>";
@@ -271,6 +272,24 @@
 				17B5A36C1876BB4A00BD364C /* GBWordListVC.m */,
 			);
 			name = WordList;
+			sourceTree = "<group>";
+		};
+		CFEAF1D8187EBD32008BE272 /* word card */ = {
+			isa = PBXGroup;
+			children = (
+				17B5A36F1876CE7E00BD364C /* wordCardCell.xib */,
+				17B5A3711876CF1E00BD364C /* GBwordCardCell.h */,
+				17B5A3721876CF1E00BD364C /* GBwordCardCell.m */,
+			);
+			name = "word card";
+			sourceTree = "<group>";
+		};
+		CFEAF1D9187EBD3A008BE272 /* word details */ = {
+			isa = PBXGroup;
+			children = (
+				CFEAF1DA187EBD99008BE272 /* WordCardDetails.xib */,
+			);
+			name = "word details";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,6 +372,7 @@
 				17564C7618753F8A003EDCE1 /* Images.xcassets in Resources */,
 				17564C9618754058003EDCE1 /* images.jpg in Resources */,
 				17564C9518754058003EDCE1 /* Twitter.png in Resources */,
+				CFEAF1DB187EBD99008BE272 /* WordCardDetails.xib in Resources */,
 				17564C9918754219003EDCE1 /* wordListCell.xib in Resources */,
 				17564C6818753F8A003EDCE1 /* InfoPlist.strings in Resources */,
 				17564C7118753F8A003EDCE1 /* Main.storyboard in Resources */,
