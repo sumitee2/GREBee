@@ -36,6 +36,13 @@
 		CFEAF1DB187EBD99008BE272 /* WordCardDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFEAF1DA187EBD99008BE272 /* WordCardDetails.xib */; };
 		CFF6E171187FE3AA0029AA17 /* GBWordCardDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF6E170187FE3AA0029AA17 /* GBWordCardDetails.m */; };
 		CFF6E175187FE4760029AA17 /* GBWordCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF6E174187FE4760029AA17 /* GBWordCardViewController.m */; };
+		CFFBF13218829BE100D1D81D /* honey.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CFFBF13118829BE100D1D81D /* honey.jpeg */; };
+		CFFBF1341882A0D500D1D81D /* card.png in Resources */ = {isa = PBXBuildFile; fileRef = CFFBF1331882A0D500D1D81D /* card.png */; };
+		CFFBF1361882A2B800D1D81D /* comb.png in Resources */ = {isa = PBXBuildFile; fileRef = CFFBF1351882A2B800D1D81D /* comb.png */; };
+		CFFBF1381882A89300D1D81D /* navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = CFFBF1371882A89300D1D81D /* navbar.png */; };
+		CFFBF13A1882AB3100D1D81D /* orange-button.png in Resources */ = {isa = PBXBuildFile; fileRef = CFFBF1391882AB3100D1D81D /* orange-button.png */; };
+		CFFBF13C1882AF0A00D1D81D /* blueNavBar.png in Resources */ = {isa = PBXBuildFile; fileRef = CFFBF13B1882AF0A00D1D81D /* blueNavBar.png */; };
+		CFFBF13E1882B74F00D1D81D /* menu_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CFFBF13D1882B74F00D1D81D /* menu_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +98,13 @@
 		CFF6E170187FE3AA0029AA17 /* GBWordCardDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBWordCardDetails.m; sourceTree = "<group>"; };
 		CFF6E173187FE4760029AA17 /* GBWordCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBWordCardViewController.h; sourceTree = "<group>"; };
 		CFF6E174187FE4760029AA17 /* GBWordCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBWordCardViewController.m; sourceTree = "<group>"; };
+		CFFBF13118829BE100D1D81D /* honey.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = honey.jpeg; sourceTree = "<group>"; };
+		CFFBF1331882A0D500D1D81D /* card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card.png; sourceTree = "<group>"; };
+		CFFBF1351882A2B800D1D81D /* comb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comb.png; sourceTree = "<group>"; };
+		CFFBF1371882A89300D1D81D /* navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar.png; sourceTree = "<group>"; };
+		CFFBF1391882AB3100D1D81D /* orange-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orange-button.png"; sourceTree = "<group>"; };
+		CFFBF13B1882AF0A00D1D81D /* blueNavBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueNavBar.png; sourceTree = "<group>"; };
+		CFFBF13D1882B74F00D1D81D /* menu_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +210,13 @@
 		17564C9218754046003EDCE1 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				CFFBF13D1882B74F00D1D81D /* menu_icon.png */,
+				CFFBF13B1882AF0A00D1D81D /* blueNavBar.png */,
+				CFFBF1391882AB3100D1D81D /* orange-button.png */,
+				CFFBF1371882A89300D1D81D /* navbar.png */,
+				CFFBF1351882A2B800D1D81D /* comb.png */,
+				CFFBF1331882A0D500D1D81D /* card.png */,
+				CFFBF13118829BE100D1D81D /* honey.jpeg */,
 				17564C9318754058003EDCE1 /* Twitter.png */,
 				17564C9418754058003EDCE1 /* images.jpg */,
 			);
@@ -388,12 +409,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				17564C7618753F8A003EDCE1 /* Images.xcassets in Resources */,
+				CFFBF1341882A0D500D1D81D /* card.png in Resources */,
 				17564C9618754058003EDCE1 /* images.jpg in Resources */,
+				CFFBF13A1882AB3100D1D81D /* orange-button.png in Resources */,
 				17564C9518754058003EDCE1 /* Twitter.png in Resources */,
+				CFFBF1381882A89300D1D81D /* navbar.png in Resources */,
+				CFFBF13218829BE100D1D81D /* honey.jpeg in Resources */,
+				CFFBF13C1882AF0A00D1D81D /* blueNavBar.png in Resources */,
 				CFEAF1DB187EBD99008BE272 /* WordCardDetails.xib in Resources */,
 				17564C9918754219003EDCE1 /* wordListCell.xib in Resources */,
 				17564C6818753F8A003EDCE1 /* InfoPlist.strings in Resources */,
+				CFFBF1361882A2B800D1D81D /* comb.png in Resources */,
 				17564C7118753F8A003EDCE1 /* Main.storyboard in Resources */,
+				CFFBF13E1882B74F00D1D81D /* menu_icon.png in Resources */,
 				17B5A3701876CE7E00BD364C /* wordCardCell.xib in Resources */,
 				17A733FC1877F667002E944D /* WordMeaningCell.xib in Resources */,
 			);

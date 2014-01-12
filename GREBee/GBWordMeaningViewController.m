@@ -36,6 +36,8 @@ NSArray *allWords;
     [self getData];
     UINib * nib = [UINib nibWithNibName:@"WordMeaningCell" bundle:[NSBundle mainBundle]];
     [self.wmCollectionView registerNib:nib forCellWithReuseIdentifier:@"wordMeaningCell"];
+  
+    //self.wmCollectionView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"honey.jpeg"]];
 }
 
 -(void)viewWillAppear:(BOOL)animated{

@@ -69,7 +69,7 @@
 
 - (IBAction)wordListButton:(id)sender {
     
-    [self performSegueWithIdentifier:@"showWordList" sender:self];
+    [self performSegueWithIdentifier:@"showWordListVC" sender:self];
 }
 
 

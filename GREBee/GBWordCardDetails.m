@@ -10,7 +10,7 @@
 
 @implementation GBWordCardDetails
 - (IBAction)goBackToWhereYouCameFromAndSuch:(id)sender {
-  [UIView transitionFromView:self toView:self.siblingCell.contentView duration:1 options:UIViewAnimationOptionTransitionFlipFromLeft completion:^(BOOL finished) {
+  [UIView transitionFromView:self toView:self.siblingCell.contentView duration:1 options:UIViewAnimationOptionTransitionCurlDown completion:^(BOOL finished) {
   }];
 }
 

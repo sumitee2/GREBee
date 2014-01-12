@@ -22,7 +22,7 @@
   
   self.siblingCell.siblingCell = self;
   
-  [UIView transitionFromView:self.contentView toView:self.siblingCell duration:1 options:UIViewAnimationOptionTransitionFlipFromLeft completion:^(BOOL finished) {
+  [UIView transitionFromView:self.contentView toView:self.siblingCell duration:1 options:UIViewAnimationOptionTransitionCurlUp completion:^(BOOL finished) {
     
   }
    ];
